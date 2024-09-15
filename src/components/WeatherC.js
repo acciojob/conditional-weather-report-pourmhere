@@ -1,6 +1,6 @@
 import React from "react";
 
-const WeatherC = () => {
+const WeatherC = (weather) => {
   const { temperature, conditions } = weather;
 
   const tempStyle = { color: temperature > 20 ? "red" : "blue" };
