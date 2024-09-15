@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./../styles/App.css";
 import WeatherC from "./WeatherC";
 
 const App = () => {
@@ -11,6 +10,7 @@ const App = () => {
 
   return (
     <div>
+      {/* Do not remove the main div */}
       <WeatherC weather={weather} />
     </div>
   );
