@@ -7,7 +7,7 @@ const WeatherC = ({ weather }) => {
 
   return (
     <div>
-      <p style={tempStyle}>Temperature: {temperature} </p>
+      <p style={tempStyle}>Temperature: {temperature}</p>
       <p>Conditions: {conditions}</p>
       <span style={tempStyle}>Temperature Color Indicator</span>
     </div>
